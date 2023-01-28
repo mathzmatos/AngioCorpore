@@ -40,19 +40,19 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    background: #0f0167;
+    background: #025ca6;
     transition: .5s;
     color: white;
 }
 
 nav ul li a:hover {
-    background: #0f0167;
+    background: #025ca6;
     transition: .5s;
     color: white;
 }
 .checkbtn {
 	font-size: 30px;
-	color: rgb(23, 2, 100);
+	color: #025ca6;
 	float: right;
 	line-height: 80px;
 	margin-right: 40px;
@@ -90,17 +90,17 @@ h3 {
 	padding: 7px 13px;
 	border-radius: 3px;
 	text-transform: uppercase;
-    text-decoration:overline rgb(101, 3, 3);
+    text-decoration: none;
 }
 
 .nav a:hover {
-    background: #0f0167;
+    background: #025ca6;
 	transition: .5s;
     color: white;
 }
 
 .nav a.active {
-    background: #0f0167;
+    background: #025ca6;
     transition: .5s;
     color: white;
 }
@@ -153,7 +153,7 @@ h3 {
   }
   
   #myUL li a:hover {
-    background-color: rgb(18, 106, 248);
+    background-color: #025ca6;
     color: white; /* Add a hover effect to all links, except for headers */
   }
 

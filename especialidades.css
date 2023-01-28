@@ -31,7 +31,7 @@ nav ul li {
 	margin: 0 5px;
 }
 nav ul li a {
-	color: rgb(0, 0, 0);
+	color: #025ca6;
 	font-size: 18px;
 	padding: 7px 13px;
 	border-radius: 3px;
@@ -99,6 +99,12 @@ h3 {
     color: white;
 }
 
+.nav a.active {
+    background: #025ca6;
+    transition: .5s;
+    color: white;
+}
+
 .sobre {
     width: 100%;
     display: flex;
@@ -116,7 +122,7 @@ h3 {
 }
 
 .sobre p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
     width: 90%;
@@ -124,50 +130,21 @@ h3 {
     
 }
 
+.sobre span {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;    
+    margin-top: 4rem;
+    color: #025ca6;
+}
+
 .sobre .box {
     background-color: rgba(227, 228, 230, 0.742);
     border-radius: 1rem ;
     width: 90%;
 }
-
-
-.parceiros {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.parceiros h1 {
-    margin-bottom: 5rem;
-    margin-top: 2rem;
-    
-}
-
-.parceiros .imagens {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    
-}
-
-.imagens img {
-    width: 20%;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    border-radius: 1rem;
-}
-
-
-
-
-
-
 
 
 /* Footer */
@@ -269,23 +246,12 @@ h3 {
         
     }
 
-    .parceiros {
-        flex-wrap: wrap;
-        margin-bottom: 2rem;
+    .sobre span {
+        width: 100%;
+        font-size: 1.3rem;
+        
     }
 
-    .parceiros h1 {
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .imagens img {
-        width: 45%;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-        border-radius: 1rem;
-        margin-right: 1rem;
-    }
 
 
 }
