@@ -155,7 +155,7 @@ h3 {
 
   }
   
-  #myUL li a:hover {
+  #box li a:hover {
     background-color: #025ca6;
     color: white; /* Add a hover effect to all links, except for headers */
   }
