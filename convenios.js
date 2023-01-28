@@ -4,7 +4,7 @@ function myFunction() {
 
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
+    ul = document.getElementById("box");
     li = ul.getElementsByTagName("li");
 
     for (i = 0; i < li.length; i++) {
