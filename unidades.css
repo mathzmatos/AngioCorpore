@@ -40,19 +40,19 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    background: #0f0167;
+    background: #025ca6;
     transition: .5s;
     color: white;
 }
 
 nav ul li a:hover {
-    background: #0f0167;
+    background: #025ca6;
     transition: .5s;
     color: white;
 }
 .checkbtn {
 	font-size: 30px;
-	color: rgb(23, 2, 100);
+	color: #025ca6;
 	float: right;
 	line-height: 80px;
 	margin-right: 40px;
@@ -183,7 +183,7 @@ iframe {
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background: #041ac4;
+		background: #025ca6;
 		top: 80px;
 		left: -100%;
 		text-align: center;
